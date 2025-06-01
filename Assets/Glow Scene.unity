@@ -212,6 +212,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4b4aa88c0d2f354a9859ac487b05978, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 2
+  moveScript: {fileID: 0}
+  speedBosst: 6
+  animator: {fileID: 0}
+  animSpeedBoost: 1.5
+  meshRefreshRate: 1
+  meshDestoryDelay: 3
+  positionToSpawn: {fileID: 0}
+  mat: {fileID: 0}
+  shaderVerRef: 
+  shaderVarRate: 0.1
+  shaderVarRefreshRate: 0.05
 --- !u!1 &1187169923
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,7 +495,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 6358a1e2722e3164f8bcc86651a94f3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
